@@ -1,0 +1,12 @@
+name: Colab
+version: Py38
+installer_type: all
+
+channels:
+  - https://conda.anaconda.org/conda-forge/linux-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+specs:
+  - python==3.8
+  - jupyter
+  - google-colab
